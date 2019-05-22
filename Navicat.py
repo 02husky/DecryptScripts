@@ -38,4 +38,4 @@ for i in conns:
 
 for i in range(len(hosts)):
     with open('result.txt', 'a+') as f:
-        f.write(hosts[i]  + ' ' + usernames[i] + ' ' + passwords[i] + '\n')
+        f.write(conns[i] + ' ' + hosts[i]  + ' ' + usernames[i] + ' ' + passwords[i] + '\n')
